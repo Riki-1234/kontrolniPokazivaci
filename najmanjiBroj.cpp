@@ -7,7 +7,7 @@ int main() {
 	cin >> a >> b >> c;
 
 	int min;
-	int* a_ptr = &a, * b_ptr = &b, * c_ptr = &c;
+	int *a_ptr = &a, *b_ptr = &b, *c_ptr = &c;
 	if (*a_ptr < *b_ptr && *a_ptr < *c_ptr) {
 		min = *a_ptr;
 	}
